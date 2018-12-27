@@ -1,0 +1,18 @@
+{
+  "name": "omi-loader",
+  "version": "1.0.1",
+  "description": "simple webpack loader",
+  "main": "loader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "loader"
+  ],
+  "dependencies": {
+    "loader-utils": "^1.1.0"
+  },
+  "author": "whoami",
+  "license": "ISC"
+}

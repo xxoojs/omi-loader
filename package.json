@@ -1,0 +1,28 @@
+{
+  "name": "webpack-loader",
+  "version": "1.0.0",
+  "description": "webpack loader",
+  "main": "index.js",
+  "scripts": {
+    "compile": "webpack --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "loader"
+  ],
+  "author": "whoami",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "loader-utils": "^1.1.0",
+    "omi-loader": "^1.0.1",
+    "webpack": "^4.27.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.2"
+  }
+}
